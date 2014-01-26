@@ -25,9 +25,25 @@ namespace winWorkoutTimer
         public MainWindow()
         {
             InitializeComponent();
+            
             currentTimer = new Clock();
-            lblTimerDisplay.Content = currentTimer.Print();
+            timer = new DispatcherTimer();
+            timer.Interval = TimeSpan.FromSeconds(1);
+            timer.Tick +=new EventHandler(timer_Tick);
+            timer.Start();
 
+        }
+        protected void timer_Tick(object sender, EventArgs e)
+        {
+            var timer = currentTimer as ITickable;
+            timer.Tick();
+            PrintTimer();
+        }
+
+        private void PrintTimer()
+        {
+            var timer = currentTimer as IPrintable;
+            lblTimerDisplay.Content = timer.Print();
         }
     }
 }

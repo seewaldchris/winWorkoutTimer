@@ -6,7 +6,7 @@ using System.Text;
 
 namespace winWorkoutTimer
 {
-    class BaseTimer : IPrintable
+    class BaseTimer : IPrintable, ITickable
     {
         protected TimeSpan timerValue;
 
@@ -14,9 +14,9 @@ namespace winWorkoutTimer
         {
             timerValue = new TimeSpan();
         }
-        public void TickTimer()
+        public void Tick()
         {
-            timerValue.Add(TimeSpan.FromSeconds(1));
+            timerValue = timerValue.Add(TimeSpan.FromSeconds(1));
         }
 
         public virtual string Print()
