@@ -1,0 +1,13 @@
+C:\Users\Chris\Documents\GitHub\winWorkoutTimer\winWorkoutTimer\winWorkoutTimer\bin\Debug\winWorkoutTimer.exe
+C:\Users\Chris\Documents\GitHub\winWorkoutTimer\winWorkoutTimer\winWorkoutTimer\bin\Debug\winWorkoutTimer.pdb
+C:\Users\Chris\Documents\GitHub\winWorkoutTimer\winWorkoutTimer\winWorkoutTimer\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Chris\Documents\GitHub\winWorkoutTimer\winWorkoutTimer\winWorkoutTimer\obj\x86\Debug\MainWindow.baml
+C:\Users\Chris\Documents\GitHub\winWorkoutTimer\winWorkoutTimer\winWorkoutTimer\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Chris\Documents\GitHub\winWorkoutTimer\winWorkoutTimer\winWorkoutTimer\obj\x86\Debug\App.g.cs
+C:\Users\Chris\Documents\GitHub\winWorkoutTimer\winWorkoutTimer\winWorkoutTimer\obj\x86\Debug\winWorkoutTimer_MarkupCompile.cache
+C:\Users\Chris\Documents\GitHub\winWorkoutTimer\winWorkoutTimer\winWorkoutTimer\obj\x86\Debug\winWorkoutTimer.g.resources
+C:\Users\Chris\Documents\GitHub\winWorkoutTimer\winWorkoutTimer\winWorkoutTimer\obj\x86\Debug\winWorkoutTimer.Properties.Resources.resources
+C:\Users\Chris\Documents\GitHub\winWorkoutTimer\winWorkoutTimer\winWorkoutTimer\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Chris\Documents\GitHub\winWorkoutTimer\winWorkoutTimer\winWorkoutTimer\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Chris\Documents\GitHub\winWorkoutTimer\winWorkoutTimer\winWorkoutTimer\obj\x86\Debug\winWorkoutTimer.exe
+C:\Users\Chris\Documents\GitHub\winWorkoutTimer\winWorkoutTimer\winWorkoutTimer\obj\x86\Debug\winWorkoutTimer.pdb
