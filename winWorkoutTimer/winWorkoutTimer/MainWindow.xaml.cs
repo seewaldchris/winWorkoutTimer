@@ -11,6 +11,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Windows.Threading;
 
 namespace winWorkoutTimer
 {
@@ -19,9 +20,14 @@ namespace winWorkoutTimer
     /// </summary>
     public partial class MainWindow : Window
     {
+        private IPrintable currentTimer;
+        private DispatcherTimer timer;
         public MainWindow()
         {
             InitializeComponent();
+            currentTimer = new Clock();
+            lblTimerDisplay.Content = currentTimer.Print();
+
         }
     }
 }

@@ -7,5 +7,6 @@ namespace winWorkoutTimer
 {
     interface IPrintable
     {
+        string Print();
     }
 }
