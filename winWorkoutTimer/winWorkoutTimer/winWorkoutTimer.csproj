@@ -64,7 +64,6 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="BaseTimer.cs" />
-    <Compile Include="RefreshTimer.cs" />
     <Compile Include="Clock.cs" />
     <Compile Include="EMOMTimer.cs" />
     <Compile Include="IPrintable.cs" />

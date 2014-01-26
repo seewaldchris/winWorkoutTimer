@@ -26,11 +26,12 @@ namespace winWorkoutTimer
         {
             InitializeComponent();
             
-            currentTimer = new Clock();
+            currentTimer = new BaseTimer();
             timer = new DispatcherTimer();
             timer.Interval = TimeSpan.FromSeconds(1);
             timer.Tick +=new EventHandler(timer_Tick);
-            timer.Start();
+            
+
 
         }
         protected void timer_Tick(object sender, EventArgs e)
@@ -43,7 +44,26 @@ namespace winWorkoutTimer
         private void PrintTimer()
         {
             var timer = currentTimer as IPrintable;
+            lblTimerDisplay.Foreground = timer.Format();
             lblTimerDisplay.Content = timer.Print();
+        }
+
+        private void btnToggleStart_Click(object sender, RoutedEventArgs e)
+        {
+            Button btn = sender as Button;
+            switch(btn.Content.ToString()){
+                case "Start" :
+                    timer.Start();
+                    btn.Content = "Stop";
+                    break;
+                case "Stop" :
+                    timer.Stop();
+                    btn.Content = "Start";
+                    break;
+                default:
+                    break;
+            }
+            
         }
     }
 }

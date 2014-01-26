@@ -2,14 +2,18 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Windows.Media;
 
 namespace winWorkoutTimer
 {
     class EMOMTimer : BaseTimer, IPrintable
     {
-        public string Print()
+        public override Brush Format()
         {
-            throw new NotImplementedException();
+            if (timerValue.Seconds >= 50)
+                return Brushes.Red;
+            else
+                return base.Format();
         }
     }
 }

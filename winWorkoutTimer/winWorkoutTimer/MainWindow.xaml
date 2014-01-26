@@ -1,8 +1,9 @@
 ﻿<Window x:Class="winWorkoutTimer.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="winWorkoutTimer" Height="350" Width="525" WindowStyle="None">
-    <Grid>
-        <Label Height="37" HorizontalAlignment="Left" Margin="188,135,0,0" Name="lblTimerDisplay" VerticalAlignment="Top" Width="214" FontFamily="Courier New" />
+        Title="winWorkoutTimer" WindowStyle="SingleBorderWindow" WindowState="Maximized" WindowStartupLocation="Manual" SizeToContent="Manual">
+    <Grid Background="Black">
+        <Label Height="117" HorizontalAlignment="Left" Margin="58,109,0,0" Name="lblTimerDisplay" VerticalAlignment="Top" Width="385" FontFamily="Courier New" FontSize="36" Foreground="Yellow" />
+        <Button Content="Start" Height="23" HorizontalAlignment="Right" Margin="228,278,0,0" Name="btnToggleStart" VerticalAlignment="Bottom" Width="75" Click="btnToggleStart_Click" Background="Black" BorderBrush="Red" Foreground="Red" />
     </Grid>
 </Window>
