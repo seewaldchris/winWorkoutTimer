@@ -65,6 +65,7 @@
     </Compile>
     <Compile Include="BaseTimer.cs" />
     <Compile Include="Clock.cs" />
+    <Compile Include="CountdownTimer.cs" />
     <Compile Include="EMOMTimer.cs" />
     <Compile Include="IPrintable.cs" />
     <Compile Include="ITickable.cs" />

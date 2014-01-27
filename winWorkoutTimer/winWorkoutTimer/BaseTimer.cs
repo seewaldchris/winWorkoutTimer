@@ -7,26 +7,26 @@ using System.Windows.Media;
 
 namespace winWorkoutTimer
 {
-    class BaseTimer : IPrintable, ITickable
+    public class BaseTimer : IPrintable, ITickable
     {
         protected TimeSpan timerValue;
 
         public BaseTimer()
         {
-            timerValue = new TimeSpan();
+            this.timerValue = new TimeSpan();
         }
-        public void Tick()
+        public virtual void Tick()
         {
-            timerValue = timerValue.Add(TimeSpan.FromSeconds(1));
+            this.timerValue = timerValue.Add(TimeSpan.FromSeconds(1));
         }
         public void Reset()
         {
-            timerValue = new TimeSpan();
+            this.timerValue = new TimeSpan();
         }
 
         public virtual string Print()
         {
-            return timerValue.ToString();
+            return this.timerValue.ToString();
         }
         public virtual Brush Format()
         {

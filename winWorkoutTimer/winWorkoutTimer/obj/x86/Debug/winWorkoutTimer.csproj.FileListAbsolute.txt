@@ -11,3 +11,14 @@ C:\Users\Chris\Documents\GitHub\winWorkoutTimer\winWorkoutTimer\winWorkoutTimer\
 C:\Users\Chris\Documents\GitHub\winWorkoutTimer\winWorkoutTimer\winWorkoutTimer\obj\x86\Debug\GenerateResource.write.1.tlog
 C:\Users\Chris\Documents\GitHub\winWorkoutTimer\winWorkoutTimer\winWorkoutTimer\obj\x86\Debug\winWorkoutTimer.exe
 C:\Users\Chris\Documents\GitHub\winWorkoutTimer\winWorkoutTimer\winWorkoutTimer\obj\x86\Debug\winWorkoutTimer.pdb
+C:\Users\cseewald\Documents\GitHub\winWorkoutTimer\winWorkoutTimer\winWorkoutTimer\obj\x86\Debug\winWorkoutTimer.exe
+C:\Users\cseewald\Documents\GitHub\winWorkoutTimer\winWorkoutTimer\winWorkoutTimer\obj\x86\Debug\winWorkoutTimer.pdb
+C:\Users\cseewald\Documents\GitHub\winWorkoutTimer\winWorkoutTimer\winWorkoutTimer\obj\x86\Debug\MainWindow.baml
+C:\Users\cseewald\Documents\GitHub\winWorkoutTimer\winWorkoutTimer\winWorkoutTimer\obj\x86\Debug\MainWindow.g.cs
+C:\Users\cseewald\Documents\GitHub\winWorkoutTimer\winWorkoutTimer\winWorkoutTimer\obj\x86\Debug\App.g.cs
+C:\Users\cseewald\Documents\GitHub\winWorkoutTimer\winWorkoutTimer\winWorkoutTimer\obj\x86\Debug\winWorkoutTimer_MarkupCompile.cache
+C:\Users\cseewald\Documents\GitHub\winWorkoutTimer\winWorkoutTimer\winWorkoutTimer\obj\x86\Debug\winWorkoutTimer.g.resources
+C:\Users\cseewald\Documents\GitHub\winWorkoutTimer\winWorkoutTimer\winWorkoutTimer\obj\x86\Debug\winWorkoutTimer.Properties.Resources.resources
+C:\Users\cseewald\Documents\GitHub\winWorkoutTimer\winWorkoutTimer\winWorkoutTimer\obj\x86\Debug\winWorkoutTimer.csproj.GenerateResource.Cache
+C:\Users\cseewald\Documents\GitHub\winWorkoutTimer\winWorkoutTimer\winWorkoutTimer\bin\Debug\winWorkoutTimer.exe
+C:\Users\cseewald\Documents\GitHub\winWorkoutTimer\winWorkoutTimer\winWorkoutTimer\bin\Debug\winWorkoutTimer.pdb

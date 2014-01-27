@@ -6,7 +6,7 @@ using System.Windows.Media;
 
 namespace winWorkoutTimer
 {
-    class EMOMTimer : BaseTimer, IPrintable
+    public class EMOMTimer : BaseTimer, IPrintable
     {
         public override Brush Format()
         {

@@ -26,7 +26,7 @@ namespace winWorkoutTimer
         {
             InitializeComponent();
             
-            currentTimer = new BaseTimer();
+            currentTimer = new CountdownTimer(TimeSpan.FromMinutes(2));
             timer = new DispatcherTimer();
             timer.Interval = TimeSpan.FromSeconds(1);
             timer.Tick +=new EventHandler(timer_Tick);
