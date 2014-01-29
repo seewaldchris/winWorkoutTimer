@@ -19,11 +19,6 @@ namespace winWorkoutTimer
         {
             this.timerValue = timerValue.Add(TimeSpan.FromSeconds(1));
         }
-        public void Reset()
-        {
-            this.timerValue = new TimeSpan();
-        }
-
         public virtual string Print()
         {
             return this.timerValue.ToString();
@@ -32,6 +27,11 @@ namespace winWorkoutTimer
         {
             return Brushes.Yellow;
         }
+        public virtual void Reset()
+        {
+            this.timerValue = new TimeSpan();
+        }
+
         
     }
 }

@@ -8,5 +8,6 @@ namespace winWorkoutTimer
     interface ITickable
     {
         void Tick();
+        void Reset();
     }
 }

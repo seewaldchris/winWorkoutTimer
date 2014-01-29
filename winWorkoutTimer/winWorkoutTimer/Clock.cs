@@ -14,7 +14,7 @@ namespace winWorkoutTimer
         }
         public override string Print()
         {
-            return creationTime.Add(timerValue).ToLongTimeString();
+            return string.Format("{0:hh:mm tt}",creationTime.Add(timerValue));
         }
     }
 }
