@@ -56,10 +56,12 @@ namespace winWorkoutTimer
                 case "Start" :
                     timer.Start();
                     btn.Content = "Stop";
+                    spControls.Visibility = System.Windows.Visibility.Hidden;
                     break;
                 case "Stop" :
                     timer.Stop();
                     btn.Content = "Start";
+                    spControls.Visibility = System.Windows.Visibility.Visible;
                     break;
                 default:
                     break;

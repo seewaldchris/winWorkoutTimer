@@ -21,7 +21,12 @@ namespace winWorkoutTimer
         }
         public virtual string Print()
         {
-            return this.timerValue.ToString();
+            if (timerValue.Hours == 0)
+            {
+                return timerValue.ToString(@"mm\:ss");
+            }
+            else
+                return this.timerValue.ToString();
         }
         public virtual Brush Format()
         {
@@ -32,6 +37,6 @@ namespace winWorkoutTimer
             this.timerValue = new TimeSpan();
         }
 
-        
+
     }
 }
