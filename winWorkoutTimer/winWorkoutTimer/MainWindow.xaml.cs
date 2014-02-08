@@ -144,5 +144,16 @@ namespace winWorkoutTimer
             btnEMOM.IsEnabled = true;
             btnCountdown.IsEnabled = false;
         }
+
+        private void tbStartTime_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            if (!btnCountdown.IsEnabled)
+            {
+                int startTime = 0;
+                int.TryParse(tbStartTime.Text, out startTime);
+                currentTimer = new CountdownTimer(TimeSpan.FromMinutes((double)startTime));
+                lblTimerDisplay.Content = currentTimer.Print();
+            }
+        }
     }
 }
