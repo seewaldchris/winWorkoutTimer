@@ -36,7 +36,7 @@ namespace winWorkoutTimer
         }
         public override System.Windows.Media.Brush Format()
         {
-            if (timerValue.Seconds <= 10)
+            if (timerValue.Seconds <= 10 && timerValue.Minutes == 0)
                 return System.Windows.Media.Brushes.Red;
             else return base.Format();
         }
