@@ -8,13 +8,18 @@ namespace winWorkoutTimer
     class Clock : BaseTimer, IPrintable
     {
         private DateTime creationTime;
-        public Clock() : base()
+        public Clock()
+            : base()
         {
-            creationTime = DateTime.Now;     
+            creationTime = DateTime.Now;
+        }
+        public override void Tick()
+        {
+            this.timerValue = timerValue.Add(TimeSpan.FromSeconds(1));
         }
         public override string Print()
         {
-            return string.Format("{0:hh:mm tt}",creationTime.Add(timerValue));
+            return string.Format("{0:hh:mm tt}", creationTime.Add(timerValue));
         }
     }
 }

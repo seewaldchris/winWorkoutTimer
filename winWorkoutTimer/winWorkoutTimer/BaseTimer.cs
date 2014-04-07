@@ -10,23 +10,42 @@ namespace winWorkoutTimer
     public class BaseTimer : IPrintable, ITickable
     {
         protected TimeSpan timerValue;
+        protected TimeSpan startCountdown;
+
+        protected const int COUNTDOWN_VALUE = 10;
 
         public BaseTimer()
         {
             this.timerValue = new TimeSpan();
+            this.startCountdown = TimeSpan.FromSeconds(COUNTDOWN_VALUE);
         }
         public virtual void Tick()
         {
-            this.timerValue = timerValue.Add(TimeSpan.FromSeconds(1));
+            if (startCountdown.Seconds > 0)
+            {
+                this.startCountdown = this.startCountdown.Subtract(TimeSpan.FromSeconds(1));
+            }
+            else
+            {
+                this.timerValue = timerValue.Add(TimeSpan.FromSeconds(1));
+            }
         }
         public virtual string Print()
         {
-            if (timerValue.Hours == 0)
+            if (startCountdown.Seconds > 0)
             {
-                return timerValue.ToString(@"mm\:ss");
+                return startCountdown.Seconds.ToString();
             }
             else
-                return this.timerValue.ToString();
+            {
+                if (timerValue.Hours == 0)
+                    return timerValue.ToString(@"mm\:ss");
+                else
+                    return this.timerValue.ToString();
+
+            }
+
+
         }
         public virtual Brush Format()
         {
@@ -35,6 +54,7 @@ namespace winWorkoutTimer
         public virtual void Reset()
         {
             this.timerValue = new TimeSpan();
+            this.startCountdown = TimeSpan.FromSeconds(COUNTDOWN_VALUE);
         }
 
 
