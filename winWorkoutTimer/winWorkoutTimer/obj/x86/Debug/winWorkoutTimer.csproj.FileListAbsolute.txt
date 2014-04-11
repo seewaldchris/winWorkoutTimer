@@ -22,3 +22,5 @@ C:\Users\cseewald\Documents\GitHub\winWorkoutTimer\winWorkoutTimer\winWorkoutTim
 C:\Users\chris\Documents\GitHub\winWorkoutTimer\winWorkoutTimer\winWorkoutTimer\obj\x86\Debug\winWorkoutTimer.csprojResolveAssemblyReference.cache
 C:\Users\chris\Documents\GitHub\winWorkoutTimer\winWorkoutTimer\winWorkoutTimer\obj\x86\Debug\winWorkoutTimer.csproj.GenerateResource.Cache
 C:\Users\cseewald\Documents\GitHub\winWorkoutTimer\winWorkoutTimer\winWorkoutTimer\obj\x86\Debug\winWorkoutTimer.csprojResolveAssemblyReference.cache
+C:\Users\cseewald\Source\Repos\winWorkoutTimer\winWorkoutTimer\winWorkoutTimer\obj\x86\Debug\winWorkoutTimer.exe
+C:\Users\cseewald\Source\Repos\winWorkoutTimer\winWorkoutTimer\winWorkoutTimer\obj\x86\Debug\winWorkoutTimer.pdb
